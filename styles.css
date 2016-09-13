@@ -1,18 +1,45 @@
 
-a {
-	font-family: 'Anton', sans-serif;
-	color: black;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 4em;
+body {
+
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+	font-family: 'Play', sans-serif;
+	color: cyan;
 }
+
+
+
+a {
+	font-family: 'Play', sans-serif;
+	color: cyan;
+	text-decoration: none;
+	font-size: 25px;
+}
+/*
+a:hover {
+	font-size: 50px;
+}*/
 
 p {
 	margin-top: -25px;
 	margin-bottom: -25px;
+	font-size: 50px;
 }
 
-div {
+#title {
 	margin-top: 150px;
 	margin-left: 10%;
+}
+
+#links {
+	margin-left: 10%;
+}
+
+#name{
+	font-size: 50px;
+}
+
+#subtitle{
+	font-size: 40px;
 }
