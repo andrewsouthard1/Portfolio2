@@ -1,46 +1,54 @@
 
 body {
 
-	background: #000000; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
-	font-family: 'Play', sans-serif;
-	color: cyan;
+	background: #323232;
+font-family: 'Oswald', sans-serif;
+
 }
 
 
 
 a {
-	font-family: 'Play', sans-serif;
-	color: cyan;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 1.25rem;
+	display: block;
+	color: white;
 }
-/*
-a:hover {
-	font-size: 50px;
-}*/
 
-p {
-	margin-top: -25px;
-	margin-bottom: -25px;
-	font-size: 50px;
+a:hover {
+	color: #00F5FF;
+	cursor: default;
+}
+
+img {
+	height: 10rem;
+	width: 9rem;
+	border-radius: 5px;
 }
 
 #title {
-	margin-top: 150px;
+	margin-top: 7rem;
+	margin-bottom: -.2rem;
 	margin-left: 10%;
+	color: white;
 }
 
 #links {
-
+	font-size: 1.25rem;
+	margin-top: .2rem;
 	margin-left: 10%;
+	display:table;
+	text-transform: uppercase;
+
 }
 
 #name{
-	font-size: 50px;
+	font-size: 3.25rem;
+	text-transform: uppercase;
 }
 
 #subtitle{
-	font-size: 35px;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: #00F5FF;
 }
