@@ -1,54 +1,38 @@
 
 body {
-
-	background: #323232;
-font-family: 'Oswald', sans-serif;
-
-}
-
-
-
-a {
-	text-decoration: none;
-	font-size: 1.25rem;
-	display: block;
+	font-family: 'Oswald', sans-serif;
+	background: #3f3f3f;
 	color: white;
-}
-
-a:hover {
-	color: #00F5FF;
-	cursor: default;
 }
 
 img {
-	height: 10rem;
-	width: 9rem;
+	height: 4rem;
+	width: 4rem;
 	border-radius: 5px;
 }
 
-#title {
-	margin-top: 7rem;
-	margin-bottom: -.2rem;
-	margin-left: 10%;
-	color: white;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	border-bottom: 1px solid white;
+	width: 100%;
 }
 
-#links {
-	font-size: 1.25rem;
-	margin-top: .2rem;
-	margin-left: 10%;
-	display:table;
-	text-transform: uppercase;
-
+li {
+	display: inline;
 }
 
-#name{
-	font-size: 3.25rem;
+.largeFont{
+	font-size: 3rem;
 	text-transform: uppercase;
 }
 
-#subtitle{
-	font-size: 1.5rem;
-	text-transform: uppercase;
-	color: #00F5FF;
+#menuBar {
+	height: 50px;
+}
+
+#portGrid {
+	margin-top: 50px;
 }
