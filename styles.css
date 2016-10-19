@@ -1,17 +1,17 @@
 
 body {
 	font-family: 'Oswald', sans-serif;
-	background: #3f3f3f;
-	color: white;
+	color: #3f3f3f;
+	background: white;
 }
 
 img {
-	height: 4rem;
-	width: 4rem;
+	height: 15rem;
+	width: 15rem;
 	border-radius: 5px;
 }
 
-ul {
+.taskbar {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -25,14 +25,20 @@ li {
 }
 
 .largeFont{
-	font-size: 3rem;
+	font-size: 50px;
 	text-transform: uppercase;
 }
 
 #menuBar {
-	height: 50px;
+	clear:both;
+	padding-bottom: 10px;
+	z-index: 100000;
+	width: 100%;
+/*	background: #3f3f3f;
+	color: white;*/
+	position: fixed;
 }
 
 #portGrid {
-	margin-top: 50px;
+	margin-top: 100px;
 }
